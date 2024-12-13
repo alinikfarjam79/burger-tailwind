@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "boldFont";
+    /* src: url("../fonts/shabnam.ttf") format("ttf"); */
+    font-weight: normal;
+    src: url(../fonts/kefir-extra-bold.otf);
+  }
+  @font-face {
+    font-family: "reqularFont";
+    /* src: url("../fonts/shabnam.ttf") format("ttf"); */
+    font-weight: normal;
+    src: url(../fonts/SecondaSoftRegular.otf);
+  }
+}
